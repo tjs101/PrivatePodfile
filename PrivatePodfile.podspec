@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name     = 'PrivatePodfile'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.author   = { 'Quentin' => 'tjs101@live.cn' }
-  s.homepage = 'https://coding.net/u/tjs101/p/MeiX/git'
+  s.homepage = 'https://github.com/tjs101'
   s.summary  = '常用podfile文件.'
   s.license  = 'MIT'
-  s.source   = { :svn => 'http://svn.meix.com/svn/meixios/trunk/Source/SimpResearch/', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/tjs101/PrivatePodfile.git', :tag => s.version.to_s }
   s.platform = :ios
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
